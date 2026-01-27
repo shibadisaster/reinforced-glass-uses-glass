@@ -9,4 +9,4 @@ This mod does the following:
 - Replace ingredient.name "sand" with "glass" and set ingredient.amount to
   whatever is configured as ingredient amount
 - Regenerate recycler recipe (jankily) to reflect new recipe
-- Optionally add glass recipe to Maraxsis' glassworking tech
+- Optionally add glass recipe unlock to Maraxsis' glassworking tech
