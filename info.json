@@ -1,0 +1,10 @@
+{
+    "name": "reinforced-glass-uses-glass",
+    "version": "1.0.0",
+    "title": "Reinforced Glass Uses Glass",
+    "author": "shibadisaster",
+    "factorio_version": "2.0",
+    "dependencies": ["base >= 2.0", "maraxsis", "Moshine"],
+    "description": "Tiny recipe tweak that makes Maraxsis' reinforced glass use Moshine's glass instead of sand because it bothered me that there were different glass types!",
+    "license": "MIT"
+}
