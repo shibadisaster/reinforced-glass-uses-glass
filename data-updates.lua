@@ -8,10 +8,10 @@ local reinforced_glass_per_craft = math.floor(settings.startup["rgug-reinforced-
 --     {type = "item", name = "salt", amount = 2}
 -- }
 
-for _, ing in ipairs(data.raw["recipe"]["maraxsis-glass-panes"].ingredients) do
-    if ing.name == "sand" then 
-        ing.name = "glass"
-        ing.amount = glass_per_reinforced_glass
+for _, ingredient in ipairs(data.raw["recipe"]["maraxsis-glass-panes"].ingredients) do
+    if ingredient.name == "sand" then 
+        ingredient.name = "glass"
+        ingredient.amount = glass_per_reinforced_glass
     end
 end
 
